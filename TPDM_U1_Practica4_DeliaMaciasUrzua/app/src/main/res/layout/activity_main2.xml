@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="120dp"
+        android:src="@drawable/numero"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="CONSTRUYENDO EL FUTURO by ANDROID"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#698000"
+
+        android:textAlignment="center"
+
+        />
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/vineta"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="90dp"
+            android:text="Android Tutorials"
+            android:layout_gravity="bottom"
+            android:textSize="23dp"
+            android:textAlignment="center"
+
+            />
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="140dp"
+            android:src="@drawable/windo"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="30dp"
+            android:paddingRight="20dp"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
